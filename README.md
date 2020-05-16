@@ -5,7 +5,7 @@ Project created on 2020-05-16
 Project title: Ivestigation of bikeshare data with pandas
 
 ### Description
-Describe what your project is about and what it does
+Inestigation of bikeshare data for washington, new york city and chicago
 
 ### Files used
 Include the files used
