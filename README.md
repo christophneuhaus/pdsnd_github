@@ -8,7 +8,7 @@ Project title: Ivestigation of bikeshare data with pandas
 Inestigation of bikeshare data for washington, new york city and chicago
 
 ### Files used
-Include the files used
+Following data was used: chicago.csv, new_york_city.csv, washington.csv
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
