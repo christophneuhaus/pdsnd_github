@@ -1,13 +1,16 @@
-import time
-import pandas as pd
-import numpy as np
 
 """
 main file for udacity bikeshares project
 Christoph Neuhaus, 16.05.2020
 """
 
+import time
+import pandas as pd
+import numpy as np
 
+
+
+# this dictionary contains the data that can be loaded
 CITY_DATA = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
              'washington': 'washington.csv'}
@@ -191,7 +194,7 @@ def user_stats(df):
 
     print('\nInformation about gender: ')
 
-    # check if gender column exists:
+    # check if gender column exists (because not every dataset contains gender data):
     if 'Gender' in df:
         gender_types = df['Gender'].unique()
 
@@ -211,7 +214,7 @@ def user_stats(df):
     # print message about year of birth:
     print('\nInformation about year of birth: ')
 
-    # check if Birth Year included in dataset
+    # check if Birth Year included in dataset (because not every dataset contains birthday data)
     if 'Birth Year' in df:
 
         earliest_birth = int((df['Birth Year'].min()))  # make sure year of birth is type integer
